@@ -1,0 +1,150 @@
+
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="stylesheet" href="buy.css" />
+
+</head>
+
+<body>
+
+    <section class="container">
+
+        <span class="title">Delivery Details</span>
+
+        <form action="#" class="form" method="post">
+
+            <div class="input-box"> <label>Full Name</label>
+
+                <input type="text"name="name" placeholder="Enter full name" required />
+
+            </div>
+
+            <div class="input-box">
+
+                <label>Email Address</label>
+
+                <input type="text"name="email" placeholder="Enter email address" required />
+
+            </div>
+
+            <div class="column">
+
+                <div class="input-box">
+
+                    <label>Phone Number</label>
+                    <input type="number" name="phone"placeholder="Enter phone number" required />
+
+                </div>
+
+                <div class="input-box">
+                    <label>Birth Date</label>
+
+                    <input type="date"name="date" placeholder="Enter birth date" required />
+
+                </div>
+
+            </div>
+
+            <div class="Payment-method">
+                <br>
+                <h3>Payment method</h3>
+
+                <div class="Payment-method-option">
+
+                    <div class="Payment-method">
+
+                        <input type="radio" name="cod"id="check-COD" name="Payment-method"/>
+                        <label for="check-COD">COD</label>
+
+                    </div>
+
+                    <div class="Payment-method">
+
+                        <input type="radio"name="upi" id="check-UPI" name="Payment-method" />
+                        <label for="check-UPI">UPI</label>
+
+                    </div>
+                    <div class="Payment-method">
+
+                        <input type="radio" name="card"id="check-Credit card" name="Payment-method" />
+                        <label for="check-Credit card">Credit card</label>
+
+                    </div>
+
+                   
+
+                </div>
+
+            </div>
+
+            <div class="input-box address">
+                <label>Address</label>
+
+                <input type="text"name="address" placeholder="Enter street address" required />
+
+
+
+                <div class="column">
+
+                    <div class="select-box">
+
+                        <select>
+
+                            <option hidden>District</option>
+
+                            <option>Chennai</option>
+                            <option>Karur</option>
+
+                            <option>Erode</option>
+
+                            <option>Namakkal</option>
+
+                        </select>
+
+                    </div>
+                    <div class="select-box">
+
+                        <select>
+
+                            <option hidden>State</option>
+
+                            <option>Tamil Nadu</option>
+                            <option>Kerala</option>
+
+                            <option>Karnataka</option>
+
+                            <option>Andhra Pradesh</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+               
+
+            </div>
+            <br>
+            <div class="checkbox">
+                <input type="checkbox" id="signupCheck" />
+                <label for="signupCheck">I accept all the terms & conditions</label>
+            </div>
+
+            <button formaction="http://localhost:3000/save">submit</button>        
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>

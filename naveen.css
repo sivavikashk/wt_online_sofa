@@ -1,0 +1,406 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.banner{
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./virender-singh-hE0nmTffKtM-unsplash.png.jpg);
+    background-size:cover;
+    background-position: center;
+    position: flex;
+}
+.navbar{
+    width:85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor:pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px ;
+    position: relative;
+    line-height: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover{
+    background: rgba(0, 0, 0, 0.644);
+    border-radius: 100px;
+    height: 25px;
+    border-width: 100px;
+}
+.navbar ul li:hover:after{
+    width:100%;      
+                  
+}
+
+.content h1{
+    width: 100%;
+    position: absolute;
+    top:50%;
+
+    text-align:left;
+    color:#fff;
+    margin-left:100px;
+    margin-top: 0;
+}
+
+.content p{
+  width: 100%;
+  position: absolute;
+  top:50%;
+
+  text-align:left;
+  color:#fff;
+  margin-left:100px;
+  margin-top: 90px;
+}
+.dropdown .mybutton {
+    font-size: 14px;
+    position: inherit;
+    border: none;
+    font-family: 'Times New Roman';
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    background-color:  inherit;
+    font-family:Arial ;
+}
+.dropdown .mybutton:hover{
+    background: rgba(0, 0, 0, 0.644);
+    border-radius: 200px;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: left;
+    background-color:none;
+    height: 300px;
+    width: 300px;
+}
+
+.dropdown-content a {
+    color:#fff;
+    text-decoration: none;
+    text-align:none;
+    display: flex;
+    border-radius: 100px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+nav.dropdown-content a:hover {
+    color:#ffffff;
+    
+}
+
+nav.mybutton:hover{
+    color: #fff;
+
+}
+nav.dropdown {
+    margin-left: 49%;
+}
+body {
+  width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./2.mid-century-modern-living-room.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.login-box {
+  width: 360px;
+  height: 28px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+footer {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+  
+    
+  
+    position: relative;
+    background-color: #84d4d9;
+    font-family:  sans-serif;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3vw;
+    padding: 72px 8vw;
+    color: var(--white-and-gray-light-gray);
+  }
+  
+  .h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .brand .h5 {
+    display: flex;
+    text-transform: uppercase;
+    gap: 16px;
+  }
+  
+  .footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .brand {
+    max-width: 200px;
+    gap: 24px;
+    line-height: 1.5;
+  }
+  
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .app-btn {
+    width: 60%;
+    max-width: 150px;
+    color: #84d7f8;
+    margin: 15px 30px;
+    text-align: left;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family:  sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .app-btn.blu {
+    background-color:#1f5f84;
+   
+    
+  }
+  .app-btn.blu:hover {
+    background-color: #ffffff;
+    width: 60%;
+  }
+  .app-btn i {
+    width: 40%;
+    text-align: center;
+    font-size: 28px;
+    margin-right: 7px;
+  }
+  .app-btn .big-txt {
+    font-size: 17px;
+    text-transform: capitalize;
+  }
+  
+  .newsletter {
+    position: relative;
+  
+  }
+  
+  .newsletter input {
+    font-size: 16px;
+    font-weight: 400;
+    height: 53px;
+    padding: 6px 6px 6px 16px;
+    background: transparent;
+    border: 1px solid white;
+    background-color: var(--white-and-gray-light-gray);
+    outline: none;
+    border-radius: 14px;
+    font-size: 16px;
+    width: 370px;
+  }
+  
+  .newsletter button {
+    position: absolute;
+    padding: 16px 40px;
+    height: 53px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color-purple);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-purple);
+    right: 6px;
+    top: 6px;
+    transition: all 0.5s;
+  }
+  
+  .newsletter button:hover {
+    cursor: pointer;
+    border-radius: 70px 10px 70px 10px;
+    box-shadow: -10px 0px whitesmoke;
+  }
+  
+  .social {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.21);
+    border-radius: 20% 20% 20% 20%;
+  }
+  
+  .social a {
+    transition: all .3s ease;
+  }
+  
+  .social a:hover {
+    box-shadow: 0px 0px 20px 1px #726193;
+    transform: scale(1.1);
+  }
+  
+
+  
+  p,
+  a {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  a {
+    color: var(--white-and-gray-light-gray);
+    text-decoration: none;
+  }
+  
+  footer a {
+    position: relative;
+  }
+  
+  footer a:not(.social-icon)::before {
+    background-color: var(--white-and-gray-light-gray);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-radius: 4px;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+  footer:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  
+  @media (max-width: 960px) {
+    .footer {
+      gap: 72px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+  
+    .brand {
+      max-width: 400px !important;
+    }
+  }
+  
+  
+  
+  .newsletter {
+    width: 100%;
+    max-width: 370px;
+  }
+  
+  .newsletter input {
+    width: calc(100% - 22px);
+  }
+  
+  
+  .copyright {
+    padding-left: 600px;
+  }
+  
+  .copyright p,
+  a {
+    font-size: 14px;
+    color:var(--white-and-gray-light-gray)
+  }
+  
+  .footer {
+    padding: 72px 8vw;
+  }
+  
+  @media (max-width: 360px) {
+  
+    p,
+    a {
+      font-size: 14px;
+    }
+  
+    .footer .h5 {
+      font-size: 16px;
+    }
+  }

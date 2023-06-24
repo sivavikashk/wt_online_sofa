@@ -1,0 +1,126 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="About.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />"
+  <title>About page</title>
+</head>
+<script type = "text/javascript">
+	window.addEventListener( "load", start, false );
+	
+	function start()
+	{
+	document.getElementById("picture").addEventListener("mouseover", over, false );
+	document.getElementById("picture").addEventListener("mouseout", out, false );
+
+	}
+
+	function over()
+	{
+	 document.getElementById("picture").setAttribute( "src", "sofa.png");
+	}
+
+	function out()
+	{
+	document.getElementById("picture").setAttribute( "src", "so.jpg");
+	}
+
+</script> 
+
+<body>
+
+  <div class="menu">
+    <div class="menu-bar">
+      <div class="logo"><img src=""></div>
+      <ul>
+        <li><a href="naveen.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Products <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-menu">
+            <ul>
+              <li><a href="first.html">One seater sofa</a></li>
+              <li><a href="second.html">Two seater sofa</a></li>
+              <li><a href="three.html">Three seater sofa</a></li>
+              <li><a href="corner.html">CORNER sofa</a></li>
+              <li><a href="rec.html">Recliners</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="ex.html">Feedback</a></li>
+        <li><a href="a.html">Contact</a></li>
+        <li><a href="form.html">Sign in</a></li>
+      </ul>
+    </div>
+  </div>
+  <h1 class="text-center" style="text-align:center;" onmouseover="this.innerHTML ='ABOUT'" onmouseout="this.innerHTML ='MANUFACTURE'">MANUFACTURE</h1>
+  <div class="heading" >
+    
+  </div>
+  <div class="section1">
+    <div class="content1">
+      <p  style="color: black;">A single sofa takes up 300 to 600 hours of skilled labor to make.
+         Even small companies and individuals avail themselves of power saws
+          and other motorized machinery, yet specialized hand tools are still applied to detail work.
+           These include the regulator for stuffing, the "ripping tool," and a type of pliers called diagonal cutters.
+           Sofas come in three major sizes. The full sofa is 84 in (2.13 m) wide. Smaller versions like the two-seater and love seat 
+           range between 60-80 in (1.52-2.03 m). Variations on the standard sofa include modular items and sofas with special uses such as daybeds
+            or convertible sofa beds. Ornamental designs are not necessarily less durable, but they do not invite casual use.
+      </p>
+    </div>
+
+    <img src="C:\Users\P.Prithivi Raj\OneDrive\Pictures\Saved Pictures\download.jpg">
+
+  </div>
+
+  <div class="section2">
+    <div class="content2">
+
+      <p style="color: black;">First the frame is constructed from wood that has been found clear of any defects.
+         The thickness of the wood should allow for the heavy tension webbing to follow. 
+         If the frame is not sufficiently strong, it will not bear the weight redistributed
+          into it by the webbing whenever someone sits down. Arms, back, or back sections, seat,
+           and legs are attached. The preferred method is with clean-cut, fitted double doweled glue
+            joints reinforced with comer braces, glued and also screwed into place. Each major part of 
+            the sofa will have to have springs attached separately, and also be padded separately. Consequently,
+             they are "framed out" with reinforcing slats, arranged around the seat section.
+      </p>
+    </div>
+    <img src="so.jpg" id="picture">
+  </div>
+  <br /> <br /> 
+  <div class="white">
+        
+    <table>
+        <caption>Price range of Sofa</caption>
+        <tr>
+            <th>Types of sofa</th>
+            
+            <th>Price Range</th>
+        </tr>
+        <tr>
+            <td>One seater sofa</td>
+            <td>Rs.2500 - Rs.25000</td>
+        </tr>
+        <tr>
+            <td>Two seater sofa</td>
+             <td>Rs.5000 - Rs.30000</td>
+        </tr>
+        <tr>
+            <td>Three seater sofa</td>
+             <td>Rs.45,999 - Rs.60,999</td>
+        </tr>
+        <tr>
+            <td>L shape sofa</td>
+             <td>Rs.60,000 - Rs.1,00,000</td>
+        </tr>
+        <tr>
+          <td>Recliners</td>
+           <td>Rs.70,000 - Rs.1,50,000</td>
+      </tr>
+    </table><br>
+  </div>
+</body>
+
+</html>

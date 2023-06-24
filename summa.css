@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#00FFD1,#A31ACB);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 130vh;
+   margin: 0;
+  }
+  .pro h1
+  {
+     font-size: 40px;
+     color: #fff;
+     text-align: center;
+     max-width: 1280px;
+     font-family: montserrat;
+     margin:auto;
+     margin-right: 10px;
+     padding: 30px ;
+  } 
+/*section {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(#00FFD1,#A31ACB);
+    height: 140vh;
+    overflow: hidden;
+}*/
+
+.container
+{
+    background-color: #fff;
+   border-radius: 5px;
+   box-shadow: 10px 20px 25px rgba(0,0,0,.3);
+   overflow: hidden;
+   width: 510px;
+   height: 80%;
+   max-width: 100%;
+}
+.header h3{
+    margin: 0;
+    text-align: center;
+    padding-top: 0px;
+}
+.header{
+
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f7f7f7;
+    padding: 10px 15px;
+
+}
+
+form {
+    padding-bottom: 30px 40px;
+    
+}
+form{
+    padding: 0 40px;
+    margin:auto;
+   max-width: 600px;
+    box-sizing:content-box;
+}
+.form-control
+{
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    border: none;  
+}
+/*form button{
+    background-color: #395144;
+    margin-left: 4%;
+    border-radius: 40px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    outline: none;   
+}*/
+.form-control label
+{
+   display: inline-block;
+   margin-bottom: 2px;
+}
+.form-control input
+{
+   border: 2px solid #f0f0f0;
+   border-radius: 4px;
+  
+   font-size: 14px;
+   padding: 10px;
+}
+.form .forget
+{
+    width: 100%;
+    padding: 20px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+button{
+    margin-left: 150px;
+    padding-bottom: 20px;
+}
+.register{
+    padding: 10px;
+}
+.forget a:hover{
+    color:#121212;
+}
+
+.form button:hover
+{
+    opacity: .7;
+}
+
+@media screen and(max-width:400px)
+{
+    .form{
+        flex-wrap:wrap;
+    }
+}
+/*
+.forget{
+    padding-bottom: 10px;
+}
+
+form .inputbox{
+    text-align: left;
+    font-size: 20px;
+}
+form .password{
+    text-align: left;
+    font-size: 20px;
+}
+form .dob{
+
+    text-align: left;
+    font-size: 20px;
+}
+form .email{
+    text-align: left;
+    font-size: 20px;
+}
+form .mobile{
+    text-align: left;
+    font-size: 20px;
+}
+form .age{
+    text-align: left;
+    font-size: 20px;
+}
+*/

@@ -1,0 +1,21 @@
+<script type = "text/javascript">
+	window.addEventListener( "load", start, false );
+	
+	function start()
+	{
+	document.getElementById("picture").addEventListener("mouseover", over, false );
+	document.getElementById("picture").addEventListener("mouseout", out, false );
+
+	}
+
+	function over()
+	{
+	 document.getElementById("picture").setAttribute( "src", "sofa.png");
+	}
+
+	function out()
+	{
+	document.getElementById("picture").setAttribute( "src", "so.jpg");
+	}
+
+</script> 

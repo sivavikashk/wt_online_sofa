@@ -1,0 +1,177 @@
+:root {
+  --color-primary: #2f5261;
+  --color-white: #ffffff;
+  --color-black: #141d28;
+  --color-black-1: #212b38;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.heading {
+  font-family: sans-serif;
+  margin-left: 650px;
+  margin-top: -40px;
+}
+
+.menu {
+  height: calc(40vh - 80px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.menu-bar {
+  background-color: var(--color-black);
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  border: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  position: relative;
+}
+
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+  text-align: right;
+}
+.menu-bar ul li {
+  padding: 10px 30px;
+  position: relative;
+}
+.menu-bar ul li a {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: var(--color-white);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.menu-bar ul li a:hover {
+  color: var(--color-primary);
+}
+
+.fas {
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.menu-bar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #000000;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul li {
+  width: 150px;
+  padding: 10px;
+}
+
+
+.section1 {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 70%;
+  margin: 10rem auto 0 auto;
+  margin-top: 40px;
+}
+
+.section1 img {
+  height: 250px;
+}
+
+.section1 p {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 16px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.section2 {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 70%;
+  margin: 10rem auto 0 auto;
+  margin-top: 40px;
+}
+
+.section2 img {
+  height: 250px;
+
+}
+
+.section2 p {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 16px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  line-height: 25px;
+
+}
+
+.content3 h2 {
+  letter-spacing: .6px;
+  line-height: 2rem;
+  text-align: center;
+  color: #212121;
+  max-width: 52rem;
+  font-family: sans-serif;
+  margin-bottom: 2rem;
+  margin-left: 350px;
+}
+table{
+  margin-left: 300px;
+  width: 500px;
+  height: 300px;
+  border-collapse: collapse;
+ 
+}
+th,td,tr{
+  border: 1px solid black;
+  color:black;
+  border-collapse: collapse;
+}
+caption{
+  color: black;
+  font-size: 25px;
+}
+td{
+  text-align: center;
+}

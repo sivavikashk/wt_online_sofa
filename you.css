@@ -1,0 +1,51 @@
+.small-container{
+    max-width: 2500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}.row{
+    display:block;
+    margin-left: 30%;
+}
+.col-3{
+    flex-basis: 25%;
+    padding: 10px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+.col-3 img{
+    width: 75%;
+    margin-top: 150px;
+    top: 10px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+.col-4 img{
+    width: 75%;
+    
+}
+.small-container{
+    background: radial-gradient(#fff, #165e7f);
+}
+.submit{
+    text-align: center;
+    height:5px;
+    width:10px;
+ 
+}
+.submit:hover{
+    color: #ce8613;
+}
+.col-3 h1{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+.heading{
+    background-color: rgb(150, 174, 255);
+}
